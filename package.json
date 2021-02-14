@@ -1,0 +1,12 @@
+{
+  "name": "staticformdocs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docsify serve docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
