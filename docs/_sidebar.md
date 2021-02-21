@@ -1,3 +1,7 @@
+<div style="margin-left: 15px">
+<img alt="W3Schools" src="_media/logo.svg" width="200">
+</div>
+
 - Getting started
 
   - [Quick start](quick-start.md)
@@ -6,26 +10,13 @@
 
 - User Guide
 
-  - [Change your address]()
-  - [Customization]()
+  - [Change Website URL](change-url.md)
 
 - Theme
 
-  - [How it works]()
-  - [Components](#namespacing)
-  - [Layout]()
-  - [Inline JavaScript]()
+  - [How it works](theme-how.md)
+  - [Tutorial](theme-tutorial.md)
 
-- Netlify CMS
 
-  - [How it works]()
-  - [Building config.yml]()
-  - [Components to Preview Components]()
-  - [Make Preview Entry Point]()
-
-- Styling with Tailwind
-
-  - [Base style]()
-  - [Components and Utilities](#namespacing)
-  - [Plugins]()
+- [FAQ](faq.md)
 

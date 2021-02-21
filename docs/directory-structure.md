@@ -23,7 +23,7 @@ Static Form is following Eleventy naming convention and directory structure with
 - `src/_includes`: Place for Eleventy layouts / includes / component files. Files in this folder will not be processed as full [template files](https://www.11ty.dev/docs/languages/), but can be consumed by other templates. Changes to this folder will trigger Eleventy rebuild.
 - `src/_includes/theme` (`theme` for short): Place where we put themes folder. See [theme](#).
 - `src/admin`: Store template files for Netlify CMS entry point and config.
-- `src/img`: Store media files, which passed through by Eleventy during build.
+- `src/img`: Store media files, which copied to live site folder during build.
 - `src/styles`: Store Tailwind configuration files.
 - `src/forms`: Store posts (forms) Markdown file. Posts for each theme are placed subdirectory.
 

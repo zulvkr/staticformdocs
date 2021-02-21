@@ -1,6 +1,6 @@
-![logo](_media/StaticFormDark.svg ':size=100')
+![logo](_media/logo.svg ':size=200')
 
-# Static Form <small>0.1.0</small>
+v 0.1.0
 
 > Form builder built with JAMStack. Easily deployed.
 

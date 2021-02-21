@@ -1,14 +1,16 @@
 # Adding and Removing Themes
 
-> Theme settings are important parameter during build process, incorrect configuration may cause build failure.
+> Theme settings are important parameter during build process, incorrect configuration or corrupt theme files may cause build failure.
 
-Instaling theme steps may vary depend on the theme requirement and your git hosting. In this tutorial we will discuss how to add and remove basic theme.
+Instaling theme steps may vary depend on the theme requirement and your git hosting. In this tutorial we will discuss how to add an imaginary `my-curious-theme` to a GitHub hosted
 
-Adding basic theme:
+Adding theme:
 
-1. Download basic theme folder from [here](https://downgit.github.io/#/home?url=https://github.com/zulvkr/StaticForm/tree/main/src/_includes/theme/basic)
-2. Extract the zip file
-3. Now we need to navigate to your website GitHub Repository.
-4. Upload to GitHub using add file, drag basic folder in you computer to theme folder in GitHUb
-5. Go to settings in admin page, add basic to themes list. Click Publish.
-6. Now you should wait a few while and 
+1. Download theme folder.
+2. Extract the zip file, now you have `my-curious-theme` folder
+3. Now we need to navigate to your GitHub Repository. You can go to About section in admin to know your GitHub Repository.
+4. Navigate to `src/_includes/theme` folder in GitHub.
+5. Upload to GitHub. You can drag `my-curious-theme` folder in your computer to theme folder in GitHub
+6. Go to settings in admin page, add `my-curious-theme` to themes list. Click Publish.
+7. Now you should wait a little bit, waiting for the building process.
+8. Refresh the admin page. You will see your new theme has been installed.

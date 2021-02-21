@@ -1,6 +1,6 @@
 # Static Form 📝
 
-**Static Form** is a form builder that built with JAMStack. The entire stack is JavaScript based and leveraging Netlify services to make it easy to get onboard. It is made to be static-with-JS-sprinkle kind of website which makes it lightning fast
+**Static Form** is a form builder that built with JAMStack. The stack is JavaScript based and leveraging Netlify services to make it easy to get onboard. It is made to be static-with-JS-sprinkle kind of website which makes it lightning fast
 
 No form backend is provided. Instead, **Static Form** uses various third party form endpoint.
 
