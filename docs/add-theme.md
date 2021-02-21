@@ -1,8 +1,8 @@
-# Adding and Removing Themes
+# Adding Themes
 
 > Theme settings are important parameter during build process, incorrect configuration or corrupt theme files may cause build failure.
 
-Instaling theme steps may vary depend on the theme requirement and your git hosting. In this tutorial we will discuss how to add an imaginary `my-curious-theme` to a GitHub hosted
+Instaling theme steps may vary depend on the theme requirement and your git hosting. In this tutorial we will discuss how to add an imaginary `my-curious-theme` to a GitHub hosted Static Form instance.
 
 Adding theme:
 
@@ -13,4 +13,4 @@ Adding theme:
 5. Upload to GitHub. You can drag `my-curious-theme` folder in your computer to theme folder in GitHub
 6. Go to settings in admin page, add `my-curious-theme` to themes list. Click Publish.
 7. Now you should wait a little bit, waiting for the building process.
-8. Refresh the admin page. You will see your new theme has been installed.
+8. Refresh the admin page. You should see your new theme in sidebar if it has been installed correctly.

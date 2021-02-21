@@ -11,6 +11,7 @@
 - User Guide
 
   - [Change Website URL](change-url.md)
+  - [Add theme](add-theme.md)
 
 - Theme
 
