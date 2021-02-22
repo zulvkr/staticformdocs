@@ -22,7 +22,7 @@ If you used deploy button, you will receive invitation email to create user. So,
 
 Sign up complete! Now, go to `admin` page. You should be able to login with your new account.
 
-If you didn't find the invitation or you didn't use the deploy button, you should check/do the following configuration:
+If you didn't find the invitation or you didn't use the deploy button, you should check the following configuration:
 
 1. [Check if the git-gateway is enabled.](https://docs.netlify.com/visitor-access/git-gateway/)
 2. [Check if you have enable Identity](https://docs.netlify.com/visitor-access/identity/)
