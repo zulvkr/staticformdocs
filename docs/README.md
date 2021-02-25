@@ -24,4 +24,4 @@ No form back end is provided. Instead, **Static Form** uses various third party 
 * Form API endpoint.
 * Authentication server.
 
-**Static Form** is configured to work with WhatsApp wa.me link and Netlify Form as form endpoint, and both has some [limitations](#). You can use any other form back end like Formspree ([there are lots of provider out there](https://free-for.dev/#/?id=forms)) or build your own.
+**Static Form** is configured to work with WhatsApp wa.me link and Netlify Form as form endpoint, and both has some [limitations](#). You can use any other form back end like Formspree ([there are lots of provider out there](https://css-tricks.com/a-comparison-of-static-form-providers/)) or build your own.
