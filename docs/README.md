@@ -18,9 +18,9 @@ No form back end is provided. Instead, **Static Form** uses various third party 
 * [Tailwind CSS](https://tailwindcss.com/)
 * [Alpine.js](https://github.com/alpinejs/alpine)
 
-**[Netlify](https://www.netlify.com/)** provides the back end, which includes:
+**[Netlify](https://www.netlify.com/)** and GitHub / GitLab provides the back end, which includes:
 
-* Static edge hosting.
+* Hosting.
 * Form API endpoint.
 * Authentication server.
 
