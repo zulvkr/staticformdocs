@@ -2,7 +2,7 @@
 
 If you are going to customize your installation, it is more convenient to develop your website locally first and deploy it by pushing to git repository that synced with Netlify. Here we explain it step by step.
 
-## TLDR
+## TL;DR
 
 ```bash
 #clone the repository
@@ -20,7 +20,7 @@ npm start
 
 1. A good Unix-like terminal. If you use Windows, [CMDER](https://cmder.net/) with bundled git will do.
 2. `git` should be installed.
-3. Node.js should be installed.
+3. Node.js should be installed. Currently Static Form uses Node 15.5.
 
 ## Step by step installation
 
@@ -49,12 +49,12 @@ npm start
     npm install
     ```
 
-    This command will run Node Package Manager to install all dependencies in *node_modules* directory. You can see all dependencies of this project in *package.json*.
+    This command will run Node Package Manager to install all dependencies to `node_modules` directory. You can see all dependencies of this project in `package.json`.
 
 6. Start the development server in your project directory
 
     ```bash
-    npm run start
+    npm start
     ```
 
     This command will start the development server.

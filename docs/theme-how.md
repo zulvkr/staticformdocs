@@ -1,6 +1,6 @@
 # What is theme exactly?
 
-Theme is an Eleventy layout + Netlify CMS preview template. Every forms are using theme as their layout and every theme should have a preview template to allow intuitive form building experience. 
+Theme is an Eleventy layout + Netlify CMS preview template + Form handling script. Every forms are using theme as their layout and every theme should have a preview template to allow intuitive form building experience. 
 
 We can opt-out not making the preview template, but its kind of defeating the purpose of Static Form. So, making a complete theme need some consideration how to share the template code between 2 different sides to avoid a lot of rewriting.
 
@@ -32,7 +32,7 @@ theme
 
 ## theme.eleventy.js
 
-```JS
+```javascript
 module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("basic", "theme/basic/index.njk");
 
@@ -48,26 +48,28 @@ The important point here is using `addPassthroughCopy()` to copy `index.js` Temp
 
 ## config.yml
 
-```YAML
-collections: # This line will be deleted during build
-  - label: Basic Forms
-    name: basic
-    folder: src/forms/basic
-    preview_path: "forms/basic/{{'{{slug}}'|safe}}"
-    create: true
+```yaml
+collections:                # This line will be deleted during build
+  - label: Basic Forms      # Label that will be displayed in the UI
+    name: basic             # collection name used for data binding
+    folder: src/forms/basic # location of markdown files
+    preview_path: "forms/basic/{{'{{slug}}'|safe}}" # preview path when saving as draft
+    create: true            # Allow creating new posts
     fields:
-      - label: Layout
+      - label: Layout       # Special layout hidden widget. Required.
         name: layout
         widget: hidden
-        default: basic  # --> your layout alias
-      - label: Title
-        name: title
-        widget: string
+        default: basic      # your layout alias registeres in .eleventy.js
+      - label: Title        # Widget Label that will be displayed in the UI
+        name: title         # widget name used for data binding
+        widget: string      # widget type
       - label: Date
         name: date
         widget: datetime
 ```
 
-Static Form will `config.yml` file in a theme folder and concatenate it with the main `config.yml` file stored in `src/admin`.
+`config.yml` is Netlify CMS configuration file that defines `collections` and their `widgets`. A theme consists of one `collection` with several `widgets`.
+
+Static Form will locate `config.yml` file in a theme folder and concatenate it with the main `config.yml` file stored in `src/admin`.
 
 Hit [Netlify CMS documentation](https://www.netlifycms.org/docs/widgets/) to see all available configuration.

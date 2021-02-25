@@ -3,7 +3,6 @@
 ## Prerequisites
 
 * [GitHub](https://github.com/) / [GitLab](https://gitlab.com/) account
-* [Netlify](https://app.netlify.com/) account
 
 ## Quick deployment
 
